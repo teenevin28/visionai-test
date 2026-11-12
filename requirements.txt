@@ -1,0 +1,8 @@
+# Validated on ASUS Ascent GX10, NVIDIA GB10, ARM64, 2026-11-12.
+# FIRST install PyTorch and torchvision compatible with your platform.
+# On tested ARM64 CUDA 13.0:
+# pip install 'torch==2.14.1+cu130' 'torchvision==0.29.1+cu130' --index-url https://download.pytorch.org/whl/cu130
+ultralytics==8.4.211
+opencv-python==5.0.0.93
+numpy==2.5.4
+Pillow==13.0.0

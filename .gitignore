@@ -1,0 +1,28 @@
+# Local models, datasets, generated outputs and caches
+outputs/
+data/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.mp4
+*.avi
+*.mov
+*.mkv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.local_cache/
+.cache/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.log
+.DS_Store
+
+# CUDA/NVIDIA local caches
+.nv/
